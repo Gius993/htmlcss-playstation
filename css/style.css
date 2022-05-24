@@ -1,15 +1,59 @@
+/***fix****/
+header img{
+	width: 100%;
+}
+body{
+	font-family: Arial, sans-serif;
+}
+header{
+	font-family: Helvetica, arial, sans-serif;
+}
+/***header-top****/
+
 .ms_upgrade-banner{
-	background-color: rgba(0, 0, 0, 0.5);
 	position: fixed;
 	top: 0;
 	right: 0;
 	height: 75px;
 	width: 100%;	
 }
-
-.ms_banner-flex{
+.ms_header-top{
+	background-color: black;
+	padding: 0.6rem;
 	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	padding-right: 5px;
+	justify-content: end;
+}
+.ms_logo{
+	width: 100px;	
+}
+
+/****header-bottom****/
+.ms_header-bottom{
+	padding: 15px 10px;
+}
+.ms_menu-small{
+	display: flex;
+	justify-content: space-between;
+}
+.ms_hamburger{
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-size:20px;
+	margin: 5px;
+}
+.ms_lyst-menu{
+	display: none;
+}
+/***header 1200px****/
+@media screen and (min-width: 1200px){
+	.ms_menu-small{
+		display: none;
+	}
+	.ms_lyst-menu{
+		display: block;
+	}
+	.ms_logo-sony{
+		width: 50px;
+	}
 }
