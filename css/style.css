@@ -133,10 +133,9 @@ p,
 .ms_card{
 	margin-top: 3rem;
 	width: 100%;
-	height: 200px;
-	background-color: #cd3d0f;
-	border: 1px solid black;
+	border-radius: 20px solid black;
 }
+
 
 /***main 768****/
 @media screen and (min-width: 768px){
