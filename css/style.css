@@ -61,10 +61,13 @@ a{
 	.ms_lyst-menu{
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
 	}
 
 	.ms_lyst{
 		margin-left: 10px;	
+		display: flex;
+		align-items: center;
 	}
 	.ms_lyst ul{
 		display: flex;
@@ -80,4 +83,28 @@ a{
 		display: flex;	
 		color: black;
 	}
+	.ms_ricerca-menu ul{
+		display: flex;	
+		align-items: center;
+	}
+	.ms_ricerca-menu a{
+		color: black;
+	}
+	.ms_lente{
+		width: 20px;
+		margin-left: 5px;
+	}
+}
+
+
+/******bottoni*****/
+.ms_bottone-nero{
+	padding: 8px 10px;
+	border: 1px solid #363636;
+	background-color: #363636;
+	color: white;
+	border-radius: 20px;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 12px;
 }
