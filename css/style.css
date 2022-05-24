@@ -1,0 +1,15 @@
+.ms_upgrade-banner{
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 75px;
+	width: 100%;	
+}
+
+.ms_banner-flex{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 5px;
+}
