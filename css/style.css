@@ -8,6 +8,14 @@ body{
 header{
 	font-family: Helvetica, arial, sans-serif;
 }
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
 /***header-top****/
 
 .ms_upgrade-banner{
@@ -51,9 +59,25 @@ header{
 		display: none;
 	}
 	.ms_lyst-menu{
-		display: block;
+		display: flex;
+		align-items: center;
 	}
-	.ms_logo-sony{
-		width: 50px;
+
+	.ms_lyst{
+		margin-left: 10px;	
+	}
+	.ms_lyst ul{
+		display: flex;
+	}
+	.ms_lyst li{
+		margin-left:1rem;
+	}
+	.ms_img-container{
+		width: 10px;
+		margin-left: 5px;
+	}
+	.ms_lyst a{
+		display: flex;	
+		color: black;
 	}
 }
