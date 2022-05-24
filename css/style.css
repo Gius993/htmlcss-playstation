@@ -30,9 +30,10 @@ a{
 	padding: 0.6rem;
 	display: flex;
 	justify-content: end;
+
 }
 .ms_logo{
-	width: 100px;	
+	width: 100px;		
 }
 
 /****header-bottom****/
@@ -96,12 +97,53 @@ a{
 	}
 }
 
-
+/**main***/
+main img{
+	width: 100%;
+}
+main a{
+	color: white;
+}
+.ms_container-jum{
+	margin-top: 150px;
+	padding-top: 200px;
+	color: white;
+	background-image: url('../img/jumbo-bg.png');
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+.ms_font{
+	font-size: 1rem;
+}
+.ms_img-jumb{
+	width: 200px;
+}
+.ms_img-jumb div,
+h3,
+p,
+.ms_bottone-orange{
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+	margin-left: 1rem;
+}
 /******bottoni*****/
 .ms_bottone-nero{
 	padding: 8px 10px;
 	border: 1px solid #363636;
 	background-color: #363636;
+	color: white;
+	border-radius: 20px;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.ms_bottone-orange{
+
+	padding: 6px 8px;
+	border: 1px solid #cd3d0f;
+	background-color: #cd3d0f;
 	color: white;
 	border-radius: 20px;
 	display: inline-block;
