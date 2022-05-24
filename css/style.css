@@ -127,7 +127,30 @@ p,
 	margin-bottom: 3rem;
 	margin-left: 1rem;
 }
+.ms_container-colonne{
+	text-align: center;
+}
+.ms_card{
+	margin-top: 3rem;
+	width: 100%;
+	height: 200px;
+	background-color: #cd3d0f;
+	border: 1px solid black;
+}
 
+/***main 768****/
+@media screen and (min-width: 768px){
+	.ms_txt-correction{
+	width: 80%;
+	}
+}
+/****main-992px***/
+
+@media screen and (min-width: 992px){
+	.ms_txt-correction{
+	width: 30%;
+	}
+}
 
 /******bottoni*****/
 .ms_bottone-nero{
@@ -156,16 +179,3 @@ p,
 	width: 90%;
 }
 
-/***main 768****/
-@media screen and (min-width: 768px){
-	.ms_txt-correction{
-	width: 80%;
-	}
-}
-/****main-992px***/
-
-@media screen and (min-width: 992px){
-	.ms_txt-correction{
-	width: 30%;
-	}
-}
