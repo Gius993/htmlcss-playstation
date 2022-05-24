@@ -133,9 +133,16 @@ p,
 .ms_card{
 	margin-top: 3rem;
 	width: 100%;
-	border-radius: 20px solid black;
 }
-
+.ms_card img{
+	border: 1px solid;
+	border-radius: 20px;
+}
+.ms_border-blu{
+	border: 1px solid blue;
+	border-radius: 20px;
+	padding: 1px
+}
 
 /***main 768****/
 @media screen and (min-width: 768px){
@@ -174,7 +181,5 @@ p,
 	font-weight: 600;
 	font-size: 12px;
 }
-.ms_txt-correction{
-	width: 90%;
-}
+
 
