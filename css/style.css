@@ -54,8 +54,8 @@ a{
 .ms_lyst-menu{
 	display: none;
 }
-/***header 1200px****/
-@media screen and (min-width: 1200px){
+/***header 992px****/
+@media screen and (min-width: 992px){
 	.ms_menu-small{
 		display: none;
 	}
@@ -127,6 +127,8 @@ p,
 	margin-bottom: 3rem;
 	margin-left: 1rem;
 }
+
+
 /******bottoni*****/
 .ms_bottone-nero{
 	padding: 8px 10px;
@@ -149,4 +151,21 @@ p,
 	display: inline-block;
 	font-weight: 600;
 	font-size: 12px;
+}
+.ms_txt-correction{
+	width: 90%;
+}
+
+/***main 768****/
+@media screen and (min-width: 768px){
+	.ms_txt-correction{
+	width: 80%;
+	}
+}
+/****main-992px***/
+
+@media screen and (min-width: 992px){
+	.ms_txt-correction{
+	width: 30%;
+	}
 }
