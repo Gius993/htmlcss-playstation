@@ -250,6 +250,19 @@ main a{
 	color: white;
 	padding: 50px;
 }
+/**social**/
+
+.ms_social{
+	text-align: center;
+	margin-top: 50px;
+}
+.ms_social-txt{
+	margin-bottom: 1.5rem;
+	font-size: 1.5rem;
+}
+.ms_social-card{
+	margin-bottom: 1rem;
+}
 /***main 768****/
 @media screen and (min-width: 768px){
 	.ms_txt-correction{
@@ -273,9 +286,26 @@ main a{
 	.ms_crash-t{
 	 padding-left: 12%;
 	}
+	.ms_correction-card{
+		width: 100%;
 	}
 
-
+	.ms_social-card{
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.ms_social-flex-item{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.ms_social-vari{
+		width: 50%;
+		
+	}
+	}
 
 /****main-992px***/
 
