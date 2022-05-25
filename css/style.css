@@ -168,6 +168,7 @@ main a{
 /*****it-take*****/
 .ms_it-take{
 	background-color: #1f1f1f;
+	color: white;
 }
 .ms_container-jum-it-take{
 	margin-top: 50px;
@@ -180,6 +181,16 @@ main a{
 .ms_margin-jumb-cont{
 	margin-bottom: 2rem;
 	margin-left: 1rem;
+}
+.ms_cra-game{
+	text-align: center;
+}
+.ms_crash-t{
+ padding-left: 20%;
+}
+.ms_img-it-card img{
+	border: 1px solid;
+	border-radius: 20px;
 }
 /***main 768****/
 @media screen and (min-width: 768px){
@@ -201,14 +212,24 @@ main a{
 		top: 50%;
 		transform: translate(-50%, -50%);
 	}
-}
+	.ms_crash-t{
+	 padding-left: 12%;
+	}
+	}
+
+
+
 /****main-992px***/
 
 @media screen and (min-width: 992px){
 	.ms_txt-correction{
 	width: 30%;
 	}
+	.ms_crash-t{
+	 padding-left: 5%;
+	}
 }
+
 
 /******bottoni*****/
 .ms_bottone-nero{
