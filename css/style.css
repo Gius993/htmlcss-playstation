@@ -242,6 +242,12 @@ main a{
 }.ms_card-sconti{
 	padding: 5%;
 }
+/**now**/
+.ms_ps-now {
+    background-color: #161c3b;
+    margin-top: 60px;
+	color: white;
+}
 /***main 768****/
 @media screen and (min-width: 768px){
 	.ms_txt-correction{
