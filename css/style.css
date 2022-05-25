@@ -247,6 +247,7 @@ main a{
     background-color: #161c3b;
     margin-top: 60px;
 	color: white;
+	padding: 50px;
 }
 /***main 768****/
 @media screen and (min-width: 768px){
@@ -292,6 +293,10 @@ main a{
 		display: block;
 		margin-left:180px;
 	}
+	.ms_ps-now{
+		display: flex;
+		align-items: center;
+	}
 }
 
 
@@ -336,6 +341,16 @@ main a{
 	border: 1px solid #d9dadc;
 	background-color: #d9dadc;
 	color: #2d64e6;
+	border-radius: 20px;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 12px;
+}
+.ms_bottone-grey-black{
+	padding: 6px 8px;
+	border: 1px solid #d9dadc;
+	background-color: #d9dadc;
+	color: black;
 	border-radius: 20px;
 	display: inline-block;
 	font-weight: 600;
