@@ -229,6 +229,19 @@ main a{
 	width: 50%;
 	display: none;
 }
+/**area sconti***/
+.ms_sconti{
+	margin-top: 50px;
+}
+.ms_tx-area-sconti{
+	padding: 20px;
+	text-align: center;
+}
+.ms_vari-sconti{
+	text-align: center;
+}.ms_card-sconti{
+	padding: 5%;
+}
 /***main 768****/
 @media screen and (min-width: 768px){
 	.ms_txt-correction{
