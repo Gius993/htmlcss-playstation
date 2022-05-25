@@ -165,6 +165,22 @@ main a{
 .ms_product-play{
 	text-align: center;
 }
+/*****it-take*****/
+.ms_it-take{
+	background-color: #1f1f1f;
+}
+.ms_container-jum-it-take{
+	margin-top: 50px;
+	color: white;
+	background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+.ms_margin-jumb-cont{
+	margin-bottom: 2rem;
+	margin-left: 1rem;
+}
 /***main 768****/
 @media screen and (min-width: 768px){
 	.ms_txt-correction{
