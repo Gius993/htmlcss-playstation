@@ -208,6 +208,27 @@ main a{
 .ms_ps4-txt-col{
 	text-align: left;
 }
+/****ps-plus*****/
+.ms_ps-plus{
+	background-color: #bebcbb;
+	margin-top: 100px;
+}
+.ms_plus-margin{
+	margin-left: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.ms_ps-plus-img{
+ width: 200px;
+ margin-bottom: 25px;
+}
+.ms_display{
+	display: none;
+}
+.ms_souls-storm{
+	width: 50%;
+	display: none;
+}
 /***main 768****/
 @media screen and (min-width: 768px){
 	.ms_txt-correction{
@@ -244,6 +265,14 @@ main a{
 	.ms_crash-t{
 	 padding-left: 5%;
 	}
+	.ms_ps-plus{
+		display: flex;
+		align-items: center;
+	}
+	.ms_souls-storm{
+		display: block;
+		margin-left:180px;
+	}
 }
 
 
@@ -277,6 +306,17 @@ main a{
 	border: 1px solid #2d64e6;
 	background-color: #2d64e6;
 	color: white;
+	border-radius: 20px;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.ms_bottone-grey{
+	padding: 6px 8px;
+	border: 1px solid #d9dadc;
+	background-color: #d9dadc;
+	color: #2d64e6;
 	border-radius: 20px;
 	display: inline-block;
 	font-weight: 600;
