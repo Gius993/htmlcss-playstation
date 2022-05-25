@@ -158,10 +158,32 @@ main a{
 	color: lightgray;
 	font-size: 1rem;
 }
+.ms_accessories{
+	text-align: center;
+	margin-top: 50px;
+}
+.ms_product-play{
+	text-align: center;
+}
 /***main 768****/
 @media screen and (min-width: 768px){
 	.ms_txt-correction{
 	width: 80%;
+	}
+	.ms_i-playstation{
+		width: 50%;
+	}
+	.ms_accessories{
+		text-align: justify;
+	}
+	.ms_position-fix{
+		position: relative;
+	}
+	.ms_t-playstation{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
 	}
 }
 /****main-992px***/
@@ -196,4 +218,15 @@ main a{
 	font-size: 12px;
 }
 
+.ms_bottone-blue{
+
+	padding: 6px 8px;
+	border: 1px solid #2d64e6;
+	background-color: #2d64e6;
+	color: white;
+	border-radius: 20px;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 12px;
+}
 
