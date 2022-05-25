@@ -192,6 +192,22 @@ main a{
 	border: 1px solid;
 	border-radius: 20px;
 }
+/*****ps4*****/
+.ms_ps4-section{
+	margin-top: 50px;
+}
+.ms_ps4-section p{
+ color:#1f1f1f; 
+}
+.ms_ps4-txt{
+	text-align: center;
+}
+.ms_product-ps4{
+	text-align: center;
+}
+.ms_ps4-txt-col{
+	text-align: left;
+}
 /***main 768****/
 @media screen and (min-width: 768px){
 	.ms_txt-correction{
