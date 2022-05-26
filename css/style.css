@@ -343,6 +343,12 @@ footer li{
 		width: 50%;
 		
 	}
+	/**footer***/
+	.ms_container-list-footer{
+		display: flex;
+		justify-content: space-around;
+	}
+
 	}
 
 /****main-992px***/
