@@ -280,6 +280,27 @@ footer li{
 .ms_sony-log{
 	width: 80px;
 }
+.ms_footer-container{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 1rem ;
+	padding-right: 1rem;
+}
+.ms_footer-section-one{
+	margin-bottom: 40px;
+}
+.ms_footer-section-one img{
+	margin-bottom: 20px;
+}
+.ms_container-list-footer{
+	margin-bottom: 40px;
+}
+.ms_container-list-footer li{
+	margin-bottom: 10px;
+}
+.ms_sony-log{
+	margin-bottom: 10px;
+}
 /***main 768****/
 @media screen and (min-width: 768px){
 	.ms_txt-correction{
