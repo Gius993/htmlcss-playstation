@@ -280,12 +280,13 @@ footer li{
 .ms_sony-log{
 	width: 80px;
 }
-.ms_footer-container{
+footer{
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 	padding-left: 1rem ;
 	padding-right: 1rem;
 }
+
 .ms_footer-section-one{
 	margin-bottom: 40px;
 }
@@ -372,6 +373,25 @@ footer li{
 	.ms_ps-now{
 		display: flex;
 		align-items: center;
+	}
+	/***footer***/
+	.ms_footer-container{
+		display: flex;	
+		
+	}
+	.ms_footer-section-one{
+		width: 50%;
+		margin-left: 40px;
+	}
+	.ms_container-list-footer{
+		width: 50%;
+		display: flex;
+		justify-content: space-between;
+		margin-right: 50px;
+		
+	}
+	.ms_brend-description{
+		width: 60%;
 	}
 }
 
