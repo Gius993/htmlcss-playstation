@@ -466,3 +466,8 @@ footer{
 .ms_bottone-nero:hover{
 	border: 3px solid black;
 }
+.ms_img-it-card:hover{
+	
+	border-radius: 20px;
+	padding: 4px
+}
