@@ -271,6 +271,15 @@ main a{
 .ms_logo-footer{
 	width: 150px;
 }
+footer a{
+	color: white;
+}
+footer li{
+	text-decoration: none;
+}
+.ms_sony-log{
+	width: 80px;
+}
 /***main 768****/
 @media screen and (min-width: 768px){
 	.ms_txt-correction{
