@@ -281,6 +281,7 @@ footer li{
 	width: 80px;
 }
 footer{
+	margin-top: 80px;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 	padding-left: 1rem ;
