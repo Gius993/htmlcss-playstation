@@ -34,7 +34,6 @@ footer{
 	padding: 0.6rem;
 	display: flex;
 	justify-content: end;
-
 }
 .ms_logo{
 	width: 100px;		
@@ -350,7 +349,6 @@ footer{
 		display: flex;
 		justify-content: space-around;
 	}
-
 	}
 
 /****main-992px***/
@@ -453,4 +451,18 @@ footer{
 	font-weight: 600;
 	font-size: 12px;
 }
+.ms_card:hover{
+	border: 1px solid blue;
+	border-radius: 20px;
+	padding: 1px
+}
+.ms_bottone-orange:hover{
+	border: 3px solid orangered;	
+}
 
+.ms_bottone-grey-black:hover{
+	border: 3px solid black;
+}
+.ms_bottone-nero:hover{
+	border: 3px solid black;
+}
