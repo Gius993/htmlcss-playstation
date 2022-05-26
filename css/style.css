@@ -16,6 +16,10 @@ ul{
 a{
 	text-decoration: none;
 }
+footer{
+	background-color: #00439c;
+	color: white;
+}
 /***header-top****/
 
 .ms_upgrade-banner{
@@ -262,6 +266,10 @@ main a{
 }
 .ms_social-card{
 	margin-bottom: 1rem;
+}
+/*****footer***/
+.ms_logo-footer{
+	width: 150px;
 }
 /***main 768****/
 @media screen and (min-width: 768px){
